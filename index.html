@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+  Name: Rita Kuo
+  Date: November 4, 2020
+  Section: CSE154 AJ
+  This is the index.html page for my cp3 of web development work. It is linked to the
+  styles.css file and index.js file. This page has a button for users remove the middle
+  image and a button for users to click and get a random joke.
+  -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <title>CP3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch&family=Itim&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <button id="remove-btn">Click Me To Remove Aloha image!</button>
+      <section id="parent">
+        <img src="laugh.jpeg" alt="laugh">
+        <img src="aloha.jpeg" alt="aloha" id="remove">
+        <img src="baby-laugh.gif" alt="baby laugh">
+      </section>
+      <p> We need humors in our lives. Therefore, let's make everyday a good day by getting
+        funny jokes!</p>
+      <section>
+        <div>
+          <button id="jokes-btn">Click me to get jokes</button>
+        </div>
+        <h1 id="response-message">Here is the Joke:</h1>
+        <div id="response"></div>
+      </section>
+      <footer>
+        <p>Data from the <a href="http://www.icndb.com/api/" target="blank">ICNDb.com API</a></p>
+      </footer>
+    </body>
+  </html>
